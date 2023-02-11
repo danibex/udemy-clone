@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leyout</title>
+    <style>
+        html {
+            width: 100%;
+        }
+        body {
+            margin: 0px;
+        }
+        .container {
+            background-color: sienna;
+            width: 100%;
+            margin: 0px;
+            height: 60px;
+            box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            width: 50px;
+            max-width: auto;
+            max-height: auto;
+            margin: 0px;
+            padding: 6px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #logo {
+            max-width: auto;
+            max-height: auto;
+            width: 120px;
+        }
+        /*.child {
+            display: inline-block;
+        }*/
+        #lupa, #cart {
+            max-width: auto;
+            max-height: auto;
+            width: 40px;
+        }
+        @media (max-width: 800px) {
+            body {
+                background-color: rgb(255, 255, 255);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <header><a href=""><img src="https://cdn0.iconfinder.com/data/icons/user-interface-151/24/List_menu_toggle-512.png" alt=""></a>
+            <a href=""><img id="logo" src="./img/logo-udemy.svg" alt=""></a><div class="child"><img src="./img/search.png" alt="" id="lupa"><img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" id="cart" alt=""></div></header>
+        </div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+</html>
